@@ -1977,7 +1977,6 @@ input, select, textarea {
 				}
 
 /* Features */
-
 	.features {
 		display: -moz-flex;
 		display: -webkit-flex;
@@ -3908,6 +3907,6 @@ input, select, textarea {
 
 		}
 
-.mysql {
+.my-icon {
 	font-size: 27px;
 }
