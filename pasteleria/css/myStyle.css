@@ -1,0 +1,67 @@
+body {
+    background-image: url(../image/fondo.jpg);
+    
+}
+
+.carousel-item img {
+    width: 100%;
+}
+
+.item {
+    /* width: 100px; */
+    padding: 5px;
+    margin: 10px;
+    border: 1px solid black;
+}
+
+.item img {
+    width: 100%;
+}
+
+.card-body {
+    padding: 0 !important;
+}
+
+.item:hover {
+  -webkit-transform:scale(1.1);
+  transform:scale(1.1);
+  border: 2px solid rgb(255, 152, 0);
+}
+.item {
+  overflow:hidden;
+  transition:all .5s ease-in-out;
+  cursor: pointer;
+}
+
+footer {
+    background: #353535;
+    padding: 32px 0;
+    text-align: center;
+    color: #868686;
+    font-size: 12px;
+}
+
+footer ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+footer li {
+    display: inline-block;
+}
+
+footer li h4 {
+    padding: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #c3c3c3;
+}
+
+footer li a:hover {
+    color: white;
+}
+
+.form-control {
+    padding: 16px;
+}

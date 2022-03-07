@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedidos</title>
+    <link rel="stylesheet" href="css/myStyle.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <!-- Navbar content -->
+<a class="navbar-brand" href="index.html">
+  <img src="image/logo.png" width="60" height="45" class="d-inline-block align-top" alt="">
+  SpaceCake
+</a>
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+  <span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbarSupportedContent">
+  <ul class="navbar-nav mr-auto">
+    <li class="nav-item active">
+      <a class="nav-link" href="pedidosCliente.html">Pedidos Cliente<span class="sr-only">(current)</span></a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="pedidosPastelero.html">Pedidos Pastelero</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="inventarioPastelero.html">Inventario Pastelero</a>
+    </li>
+  </ul>
+</div> 
+</nav>
+
+  <div class="container mt-3 mb-5">
+    <div class="row">
+        <div class="col-lg-6 offset-lg-3">
+            <div class="card">
+                <div class="card-body">
+                    <h2 class="text-center title">Pedido</h2>
+                    <form >
+                        <div class="mb-3 ml-3 mr-3">
+                            <div class="form-group">
+                                
+                                <select class="form-control form-control-lg" id="exampleFormControlSelect1">
+                                  <option disabled selected>Sabor 1</option>
+                                  <option>Chocolate</option>
+                                  <option>Fresa</option>
+                                  <option>Moka</option>
+                                  <option>Red Velvet</option>
+                                  <option>Zanahoria</option>
+                                  <option>Queso zarzamora</option>
+                                </select>
+                              </div>
+
+                        </div>
+                        <div class="mb-3 ml-3 mr-3">
+                            <div class="form-group">
+                                
+                                <select class="form-control form-control-lg" id="exampleFormControlSelect1">
+                                  <option disabled selected>Sabor 2</option>
+                                  <option>Chocolate</option>
+                                  <option>Fresa</option>
+                                  <option>Moka</option>
+                                  <option>Red Velvet</option>
+                                  <option>Zanahoria</option>
+                                  <option>Queso zarzamora</option>
+                                </select>
+                              </div>
+
+                        </div>
+                        <div class="mb-3 ml-3 mr-3">
+                            <div class="form-check">
+                                <h5>Adornos</h5>
+                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                <label style="padding-right: 72px;" class="form-check-label" for="defaultCheck1">
+                                  Vela Cumpleaños ($25)
+                                </label>
+                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                <label style="padding-right: 70px;" class="form-check-label" for="defaultCheck1">
+                                  Cake Topper Sirena ($50)
+                                </label>
+                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                <label style="padding-right: 85px;" class="form-check-label" for="defaultCheck1">
+                                  Globos ($20)
+                                </label>
+                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                <label style="padding-right: 75px;" class="form-check-label" for="defaultCheck1">
+                                  Cake Topper Nave Espacial ($60)
+                                </label>
+                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                <label style="padding-right: 40px;" class="form-check-label" for="defaultCheck1">
+                                  Cake Topper Nave Mickey ($60)
+                                </label>
+                            </div>
+                        </div>
+                        <div class="mb-3 ml-3 mr-3">
+                            <input style="padding: 16px;" type="text" class="form-control form-control-lg" placeholder="Nombre Cliente" required>
+                        </div>
+                        <div class="mb-3 ml-3 mr-3">
+                            <input style="padding: 16px;" type="tel" class="form-control form-control-lg" placeholder="Telefono Cliente" required>
+                        </div>
+                        <div class="mb-3 ml-3 mr-3">
+                            <input type="email" class="form-control form-control-lg" placeholder="Correo Cliente">
+                        </div>
+                        
+                        <button class="btn btn-secondary btn-lg">Volver</button>
+                        <button type="submit" class="btn btn-primary btn-lg float-right">Aceptar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    
+</body>
+</html>
